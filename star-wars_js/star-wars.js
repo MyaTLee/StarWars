@@ -82,7 +82,7 @@ function func1() {
 const gameData = {
     welcome: {
         msg: "Are you ready to begin?",
-        img: "./star-wars_images/welcome.png",
+        img: "../StarWars/star-wars_images/welcome.png",
         buttons: [
             {
                 text: "Let's go!",
