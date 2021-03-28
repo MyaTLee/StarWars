@@ -98,7 +98,7 @@ const gameData = {
     instructions: {
         // !Need to figure out how to add breaks between the paragraphs in msg
         msg: "So, you need help...",
-        img: "star-wars_images/instructions.jpg",
+        img: "../StarWars/star-wars_images/instructions.jpg",
         buttons: [
             {
                 text: "Nevermind",
