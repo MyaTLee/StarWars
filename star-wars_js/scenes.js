@@ -3,7 +3,7 @@
 const gameData = {
     welcome: {
         msg: "Are you ready to begin?",
-        img: "../StarWars/star-wars_images/welcome.png",
+        img: "../star-wars_images/welcome.png",
         buttons: [
             {
                 text: "Let's go!",
