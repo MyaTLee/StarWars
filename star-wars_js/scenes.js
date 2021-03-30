@@ -3,7 +3,7 @@
 const gameData = {
     welcome: {
         msg: "Are you ready to begin?",
-        img: "../star wars/star-wars_images/welcome.png",
+        img: "../StarWars/star-wars_images/welcome.png",
         buttons: [
             {
                 text: "Let's go!",
@@ -19,7 +19,7 @@ const gameData = {
     instructions: {
         // !Need to figure out how to add breaks between the paragraphs in msg
         msg: "So, you need help...",
-        img: "../star wars/star-wars_images/instructions.jpg",
+        img: "../StarWars/star-wars_images/instructions.jpg",
         buttons: [
             {
                 text: "Nevermind",
@@ -37,7 +37,7 @@ const gameData = {
     },
     note: {
         msg: "But first, a note from the coder: Please understand that this game is in no way a true and accurate representation of Star Wars for the extreme fans of Star Wars. This game came in response to a challenge, and the coder's intention was to do the film some form of justice despite the coder being someone who has never seen the film or anything in the franchise before. Constructive criticism is always wanted.",
-        img: "../star wars/star-wars_images/coders-note.png",
+        img: "../StarWars/star-wars_images/coders-note.png",
         buttons: [
             {
                 text: "Let's start the game",
@@ -51,7 +51,7 @@ const gameData = {
     },
     game: {
         msg: "Anyway, you will be given a series of options to choose at each scene. Please choose wisely. There are a few minigames (in the form of riddles) throughout this text-based game. This game follows the journey of Star Wars character so I wish you the best of luck, and I hope you stay alive during the rebellion.",
-        img: "../star wars/star-wars_images/game.jpg",
+        img: "../StarWars/star-wars_images/game.jpg",
         buttons: [
             {
                 text: "I'm ready",
@@ -65,7 +65,7 @@ const gameData = {
     },
     intro: {
         msg: "You know, this is not how I thought my day was going to go. Well, I guess the best place is to start from the beginning. I woke up to some noise.",
-        img: "../star wars/star-wars_images/intro.jpg",
+        img: "../StarWars/star-wars_images/intro.jpg",
         buttons: [
             {
                 text: "Follow the noise",
@@ -86,7 +86,7 @@ const gameData = {
     },
     follow: {
         msg: "Creeping along the carpet in the hallway, you see a light flashing in the living room.",
-        img: "../star wars/star-wars_images/follow.jpg", 
+        img: "../StarWars/star-wars_images/follow.jpg", 
         buttons: [
             {
                 text: "Grab the closest object to you",
@@ -107,7 +107,7 @@ const gameData = {
     // scene remote is not working
     remote: {
         msg: "You have secured a remote. Point and click is what you do. Steathily crossing further into the living room armed with the deadly remote, you point and click the remote at the television befoer you are pushed through a votex.",
-        img: "../star wars/star-wars_images/remote_unsplash.jpg",
+        img: "../StarWars/star-wars_images/remote_unsplash.jpg",
         buttons: [
             {
                 text: "Goodbye world",
@@ -117,7 +117,7 @@ const gameData = {
     },
     kitchen: {
         msg: "Entering the kitchen, you see a shadow and attempt to sneak pass to the door. Attempt failed! You are thrown through a vortex.",
-        img: "../star wars/star-wars_images/kitchen_unsplash.jpg",
+        img: "../StarWars/star-wars_images/kitchen_unsplash.jpg",
         buttons: [
             {
                 text: "Goodbye world",
@@ -127,7 +127,7 @@ const gameData = {
     },
     votex: {
         msg: "While you are spinning in the space of nothingness, you hear a voice that says, 'Hey, we should get to know each other. What are you?'",
-        img: "../star wars/star-wars_images/votex.jpg",
+        img: "../StarWars/star-wars_images/votex.jpg",
         buttons: [
             {
                 text: "girl",
@@ -141,7 +141,7 @@ const gameData = {
     },
     score1: {
         msg: "Interesting, hmmm. What is your life's purpose?",
-        img: "../star wars/star-wars_images/score1_unsplash.jpg",
+        img: "../StarWars/star-wars_images/score1_unsplash.jpg",
         buttons: [
             {
                 text: "To fight for justice",
@@ -163,7 +163,7 @@ const gameData = {
     },
     transition: {
         msg: "The voice adds, 'You're kind of weird. You know you can stop when you say 'stop' right.'",
-        img: "../star wars/star-wars_images/transition.jpg",
+        img: "../StarWars/star-wars_images/transition.jpg",
         buttons: [
             {
                 text: "'Stop'",
@@ -177,7 +177,7 @@ const gameData = {
     },
     landing: {
         msg: "Whoomph! Crashing onto the ground, you can't help but to stare at the sky as the votex closes. Minutes pass before you begin to gain your bearings and sound reenters. You begin to hear a groaning sound and notice that you are on top of someone",
-        img: "../star wars/star-wars_images/landing.jpg",
+        img: "../StarWars/star-wars_images/landing.jpg",
         buttons: [
             {
                 text: "Look around",
@@ -195,7 +195,7 @@ const gameData = {
     },
     spinning: {
         msg: "The voice angrily yells, 'Since you want to be silent, how about you be silent forever.",
-        img: "../star wars/star-wars_images/spinning.jpg",
+        img: "../StarWars/star-wars_images/spinning.jpg",
         buttons: [
             {
                 text: "Wait, I'll say something.",
@@ -205,7 +205,7 @@ const gameData = {
     },
     robot1: {
         msg: "You find yourself in a empty black space.",
-        img: "../star wars/star-wars_images/robot1_unsplash.jpg",
+        img: "../StarWars/star-wars_images/robot1_unsplash.jpg",
         buttons: [
             {
                 text: "Where am I?",
@@ -215,7 +215,7 @@ const gameData = {
     },
     robot2: {
         msg: "Gibberish is heard being spoken around you with a tiny silver of light being shown in your dark space. Soon, you move forward in the light.",
-        img: "../star wars/star-wars_images/robot2.jpg",
+        img: "../StarWars/star-wars_images/robot2.jpg",
         buttons: [
             {
                 text: "You are in the light",
@@ -229,7 +229,7 @@ const gameData = {
     },
     robot3: {
         msg: "You find yourself in a line with other driods near a spacecraft. You cannot move of your own free will. You start to move closer to a golden droid and young man before you go bezerk.",
-        img: "../star wars/star-wars_images/robot3.jpg",
+        img: "../StarWars/star-wars_images/robot3.jpg",
         buttons: [
             {
                 text: "Well, you're...",
@@ -239,7 +239,7 @@ const gameData = {
     },
     speak: {
         msg: "You attempt to speak but no sound comes out.",
-        img: "../star wars/star-wars_images/speak_unsplash.jpg",
+        img: "../StarWars/star-wars_images/speak_unsplash.jpg",
         buttons: [
             {
                 text: "You have been...",
@@ -249,7 +249,7 @@ const gameData = {
     },
     silence: {
         msg: "You have been silenced to live your life as a droid. You cannot return home.",
-        img: "../star wars/star-wars_images/silence.jpg",
+        img: "../StarWars/star-wars_images/silence.jpg",
         buttons: [
             {
                 text: "I accept my fate",
@@ -263,7 +263,7 @@ const gameData = {
     },
     death: {
         msg: "You are dead. You have not helped anyone. You have not returned home.",
-        img: "../star wars/star-wars_images/death.png",
+        img: "../StarWars/star-wars_images/death.png",
         buttons: [
             {
                 text: "I accept my fate",
@@ -277,7 +277,7 @@ const gameData = {
     },
     gameover: {
         msg: "Gameover",
-        img: "../star wars/star-wars_images/gameover.jpg",
+        img: "../StarWars/star-wars_images/gameover.jpg",
         buttons: [
             {
                 text: "Play again",
@@ -287,7 +287,7 @@ const gameData = {
     },
     look: {
         msg: "You begin to wander as you look around in the desert.",
-        img: "../star wars/star-wars_images/look.jpg",
+        img: "../StarWars/star-wars_images/look.jpg",
         buttons: [
             {
                 text: "Go north",
@@ -301,7 +301,7 @@ const gameData = {
     },
     sand: {
         msg: "As you walk north, you begin to hear noise and the shifting of the sand. Soon, you find yourselves ambushed by Tusken Raiders.",
-        img: "../star wars/star-wars_images/sand.jpg",
+        img: "../StarWars/star-wars_images/sand.jpg",
         buttons: [
             {
                 text: "You ...",
@@ -311,7 +311,7 @@ const gameData = {
     },
     desert: {
         msg: "You travel south past the building trying to find your way back home. Soon, you become dehydrated and begin to look for water.",
-        img: "../star wars/star-wars_images/desert.jpg",
+        img: "../StarWars/star-wars_images/desert.jpg",
         buttons: [
             {
                 text: "You...",
@@ -321,7 +321,7 @@ const gameData = {
     },
     loot: {
         msg: "The person appears to be dead, so you begin to search and loot the person of their belongings. 'It's not like the person will be able to take their belongings with them,' you think. Well, that's what you think until you hear, 'Thief!' before you are shot.",
-        img: "../star wars/star-wars_images/loot.jpg",
+        img: "../StarWars/star-wars_images/loot.jpg",
         buttons: [
             {
                 text: "You're...",
@@ -331,7 +331,7 @@ const gameData = {
     },
     help: {
         msg: "'Are you alright?,' you ask the person as they groan on the ground. Attempting to help the person up, you notice your skin begin to become transparent as your vision becomes dark.",
-        img: "../star wars/star-wars_images/help_unsplash.jpg",
+        img: "../StarWars/star-wars_images/help_unsplash.jpg",
         buttons: [
             {
                 text: "Awake",
@@ -345,7 +345,7 @@ const gameData = {
     },
     hide: {
         msg: "You have chosen to hide in your room. As you slowly close your door, you hear the sound of steps creep closer and closer to you.",
-        img: "../star wars/star-wars_images/hide_unsplash.jpg",
+        img: "../StarWars/star-wars_images/hide_unsplash.jpg",
         buttons: [
             {
                 text: "You hide in the closet",
@@ -355,7 +355,7 @@ const gameData = {
     },
     closet: {
         msg: "Are you safe? Huddling amongst your clothes, you keep inching backwards as your bedroom opens wider. Scooot, scooot. Hearing steps creep closer to the closet, you frantically scoot backwards. In the back of your mind, you start to ponder how big your closet is when you fall.",
-        img: "../star wars/star-wars_images/closet.jpg",
+        img: "../StarWars/star-wars_images/closet.jpg",
         buttons: [
             {
                 text: "You have fallen in a votex.",
@@ -365,7 +365,7 @@ const gameData = {
     },
     luke: {
         msg: "As your surroundings become clearer, you begin to hear someone calling a name. 'Is that your name?,' you wonder.",
-        img: "../star wars/star-wars_images/luke.jpg",
+        img: "../StarWars/star-wars_images/luke.jpg",
         buttons: [
             {
                 text: "Yes",
@@ -379,7 +379,7 @@ const gameData = {
     },
     luke0: {
         msg: "A woman nudges you awake saying, 'Luke, wake up. You're supposed to be helping your uncle",
-        img: "../star wars/star-wars_images/luke0.png",
+        img: "../StarWars/star-wars_images/luke0.png",
         buttons: [
             {
                 text: "get up and help your uncle",
@@ -389,7 +389,7 @@ const gameData = {
     },
     insane: {
         msg: "Yelling, 'That is not my name,' before being hit over the head",
-        img: "../star wars/star-wars_images/insane.png",
+        img: "../StarWars/star-wars_images/insane.png",
         buttons: [
             {
                 text: "You wake to find yourself in ropes",
@@ -399,7 +399,7 @@ const gameData = {
     },
     luke1: {
         msg: "Your aunt calls, 'Luke. Luke. Luke, tell your uncle. If he gets a translator, be sure it speaks Bocce.' You rush off to catch up with Uncle Owen as he decides which droid to buy. He tells you to take the two driod to the garage. He 'wants them cleaned up before dinner.",
-        img: "../star wars/star-wars_images/luke1.jpg",
+        img: "../StarWars/star-wars_images/luke1.jpg",
         buttons: [
             {
                 text: "I have other plans.",
@@ -417,7 +417,7 @@ const gameData = {
     },
     disobey: {
         msg: "You take the droids to the garage before disappearing and leaving them there. Soon, you are ambushed.",
-        img: "../star wars/star-wars_images/disobey.png",
+        img: "../StarWars/star-wars_images/disobey.png",
         buttons: [
             {
                 text: "You...",
@@ -427,7 +427,7 @@ const gameData = {
     },
     obey: {
         msg: "As you begin to take the droid, you notice the R2 unit begin to malfunction",
-        img: "../star wars/star-wars_images/luke2.jpg",
+        img: "../StarWars/star-wars_images/luke2.jpg",
         buttons: [
             {
                 text: "Examine the unit",
@@ -445,7 +445,7 @@ const gameData = {
     },
     luke2: {
         msg: " After stating, 'I was going into Tosche Station to pick up some power converters,' you head to the garage to clean the droids. However, the R2 unit behind you begins to malfunction.",
-        img: "../star wars/star-wars_images/luke2.jpg",
+        img: "../StarWars/star-wars_images/luke2.jpg",
         buttons: [
             {
                 text: "Examine the unit",
@@ -463,7 +463,7 @@ const gameData = {
     },
     examine: {
         msg: "Crounching to get a closer look, you gently poke a finger in the droid and get electrocuted.",
-        img: "../star wars/star-wars_images/examine_unsplash.jpg",
+        img: "../StarWars/star-wars_images/examine_unsplash.jpg",
         buttons: [
             {
                 text: "You...",
@@ -473,7 +473,7 @@ const gameData = {
     },
     nothing: {
         msg: "You keep moving as if nothing is happening. When your uncle returns, he notices that the R2 is malfunctioned.",
-        img: "../star wars/star-wars_images/nothing_unsplash.jpg",
+        img: "../StarWars/star-wars_images/nothing_unsplash.jpg",
         buttons: [
             {
                 text: "This...",
@@ -483,7 +483,7 @@ const gameData = {
     },
     luke3: {
         msg: "'Uncle Owen. This R2 unit has a bad motivator' Turning to the other driod, it convinces you to convince Uncle Owen to bargain for the cleaner-looking R2. You begin to walk back home to the garage. Hopefully, for the last time.",
-        img: "../star wars/star-wars_images/luke3.jpg",
+        img: "../StarWars/star-wars_images/luke3.jpg",
         buttons: [
             {
                 text: "Clean the droids",
@@ -497,7 +497,7 @@ const gameData = {
     },
     luke4: {
         msg: "Voicing your frustrations to the droids, you begin to clean R2-D2.",
-        img: "../star wars/star-wars_images/luke4.jpg",
+        img: "../StarWars/star-wars_images/luke4.jpg",
         buttons: [
             {
                 text: "I successfully clean R2-D2",
@@ -511,7 +511,7 @@ const gameData = {
     },
     quiz1: {
         msg: "Let's see how well you did and test your Star Wars knowledge: Before every Star Wars movie begins, George Lucas generously provides a short prologue to update viewers of events in the 'Star Wars' galaxy. Who is the only main character mentioned in the rolling prologue that precedes the events of the original 'Star Wars' film?",
-        img: "../star wars/star-wars_images/riddle.jpg",
+        img: "../StarWars/star-wars_images/riddle.jpg",
         buttons: [
             {
                 text: "Darth Vader",
@@ -525,7 +525,7 @@ const gameData = {
     },
     fail1: {
         msg: "You have failed. R2D2 remains unclean and begin to malfunction.",
-        img: "../star wars/star-wars_images/fail1.jpg",
+        img: "../StarWars/star-wars_images/fail1.jpg",
         buttons: [
             {
                 text: "Run",
@@ -543,7 +543,7 @@ const gameData = {
     },
     luke5: {
         msg: "Congrats, you have successfully cleaned R2D2 before he begins to play a message.",
-        img: "../star wars/star-wars_images/luke5.jpg",
+        img: "../StarWars/star-wars_images/luke5.jpg",
         buttons: [
             {
                 text: "Question R2D2",
@@ -557,7 +557,7 @@ const gameData = {
     },
     last: {
         msg: "Thank you for playing the demo. For more action and adventure, please purchase the full game.",
-        img: "../star wars/star-wars_images/last.jpg",
+        img: "../StarWars/star-wars_images/last.jpg",
         buttons: [
             {
                 text: "Play again",
